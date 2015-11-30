@@ -22,6 +22,7 @@ module.exports = function(grunt) {
     
     
     
+    
     async.each(files, function(file, callback) {
       var data = grunt.file.read(file.src);
       
@@ -57,6 +58,19 @@ module.exports = function(grunt) {
       
     });
   });
+  
+  
+
+                       
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+  
 
 };
 
